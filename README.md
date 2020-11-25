@@ -31,6 +31,12 @@ The program should ask to enter the coordinates where a user wants to make a mov
 Note that in this stage user places X, not O. Keep in mind that the first coordinate goes from left to right and the second coordinate goes from bottom to top. Also, note that coordinates start with 1 and can be 1, 2, or 3.
 
 What if the user enters incorrect coordinates? The user could enter symbols instead of numbers or enter coordinates of the already occupied cells. You need to prevent all of that by checking the user input and catching possible exceptions.
+#### Stage 5/5:
+We are at the finish line! But playing alone is not so interesting, is it? Let's combine all our success from the past stages and get the Tic-Tac-Toe with the ability to play from the beginning (empty field) to the result (win or draw).
+
+Now it is time to make a working game!
+
+In the last stage, make it so you can play a full game with a friend. The first one of you moves as X, and then the other one moves as O.
 
 ### Objectives
 #### Stage 1/5:
@@ -72,3 +78,12 @@ The program should work in the following way:
 So, you need to output a field from the first line of the input and then ask the user to make their move. Keep asking until the user enters coordinates that represent an empty cell on the field and after that output the field with that move. You should output the field only 2 times, before and after a correct move.
 
 Do not delete code that checks table state; it will be useful in the future.
+#### Stage 5/5 :
+In this stage, you should write a program that:
+
+- Prints an empty field at the beginning of the game.
+- Creates a game loop where the program asks the user to enter the cell coordinates, analyzes the move for correctness, and shows a field with the changes if everything is ok.
+- Ends the game when someone wins or when there is a draw.
+You need to output the final result after the end of the game.
+
+Good luck gaming!
